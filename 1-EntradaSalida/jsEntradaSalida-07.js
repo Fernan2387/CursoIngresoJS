@@ -12,22 +12,43 @@ function sumar()
 	let suma;
 	numero1=parseInt(document.getElementById("txtIdNumeroUno").value);
 	numero2=parseInt(document.getElementById("txtIdNumeroDos").value);
-	suma = numero1 + numero2
+	suma = numero1 + numero2;
 	alert ("la suma es " + suma);	
 }
 
 function restar()
 {
-	
+	let num;
+	let num1;
+	let resta;
+	num = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num1 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	resta = num - num1;
+
+	alert("Su resultado es " + resta);
 }
 
 function multiplicar()
 { 
-	
+	let num;
+	let num1;
+	let mult;
+	num = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num1 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	mult = num * num1;
+
+	alert("Su resultado es " + mult);
 }
 
 function dividir()
 {
-	
+	let num;
+	let num1;
+	let divi;
+	num = parseInt(document.getElementById("txtIdNumeroUno").value);
+	num1 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	divi = num / num1;
+
+	alert("Su resultado es " + divi);
 }
 
